@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [ChartMimic website](https://chartmimic.github.io).
 
-If you find Nerfies useful for your work please cite:
+If you find ChartMimic useful for your work please cite:
 ```
 @article{
 }
