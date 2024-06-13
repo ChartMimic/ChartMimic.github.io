@@ -1,4 +1,4 @@
-# Nerfies
+# ChartMimic
 
 This is the repository that contains source code for the [ChartMimic website](https://chartmimic.github.io).
 
