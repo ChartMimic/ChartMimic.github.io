@@ -36,6 +36,18 @@
     "Overall": 71.4
   },
   {
+    "Model": "GPT-4o",
+    "Params": "-",
+    "Exec_Rate": 91.6,
+    "Text": 80.7,
+    "Layout": 88.9,
+    "Type": 76.9,
+    "Color": 68.1,
+    "Avg": 78.7,
+    "GPT-4V": 73.0,
+    "Overall": 75.8
+  },
+  {
     "Model": "Qwen-VL-Chat",
     "Params": "9.6B",
     "Exec_Rate": "4.0",
@@ -156,6 +168,18 @@
     "Overall": 27.2
   },
   {
+    "Model": "InternVL2-4B",
+    "Params": "4B",
+    "Exec_Rate": 67.6,
+    "Text": 33.3,
+    "Layout": 53.3,
+    "Type": 28.6,
+    "Color": 28.3,
+    "Avg": 35.9,
+    "GPT-4V": 27.7,
+    "Overall": 31.8
+  },
+  {
     "Model": "Phi-3-Vision",
     "Params": "4.2B",
     "Exec_Rate": "66.0",
@@ -166,5 +190,29 @@
     "Avg": 38.7,
     "GPT-4V": 25.1,
     "Overall": 31.9
+  },
+  {
+    "Model":"InternVL2-26B",
+    "Params":"26B",
+    "Exec_Rate":66.4,
+    "Text":36.1,
+    "Layout":55.4,
+    "Type":35.4,
+    "Color":32.8,
+    "Avg":39.9,
+    "GPT-4V":34.0,
+    "Overall":37.0
+  },
+  {
+    "Model":"InternVL2-Llama3-76B",
+    "Params":"76B",
+    "Exec_Rate":80.4,
+    "Text":51.1,
+    "Layout":70.2,
+    "Type":49.4,
+    "Color":42.7,
+    "Avg":53.4,
+    "GPT-4V":46.9,
+    "Overall":50.1
   }
 ]
