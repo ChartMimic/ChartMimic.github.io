@@ -103,9 +103,9 @@ var barColorFn = function (value, formatterParams) {
 
 document.addEventListener('DOMContentLoaded', function () {
     Promise.all([
-        fetch('static/data/benchmark.json').then(response => response.json()),
+        fetch('static/data/old_benchmark.json').then(response => response.json()),
         fetch('static/data/feedback_comparison.json').then(response => response.json()),
-        fetch('static/data/eurus_code_sr_vs_k_series.json').then(response => response.json()),
+        fetch('static/data/old_eurus_code_sr_vs_k_series.json').then(response => response.json()),
         fetch('static/data/eurus_math_sr_vs_k_series.json').then(response => response.json())
     ])
         .then(([
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         title: "High-Level",
                         headerHozAlign: "center",
                         columns: [
-                            { title: "GPT-4o", field: "GPT-4o", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
+                            { title: "GPT-4V", field: "GPT-4V", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
                         ]
                     },
                     { title: "Overall", field: "Overall", sorter: "number", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         title: "High-Level",
                         headerHozAlign: "center",
                         columns: [
-                            { title: "GPT-4o", field: "GPT-4o", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
+                            { title: "GPT-4V", field: "GPT-4V", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
                         ]
                     },
                     { title: "Overall", field: "Overall", sorter: "number", headerHozAlign: "center", hozAlign: "center", minWidth: 90, formatter: colorFormatter },
